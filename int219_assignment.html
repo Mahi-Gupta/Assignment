@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+         margin: 0;
+         padding: 0;
+        }
+        body{
+            background-color: rgb(245, 249, 252);
+        }
+        .sec{
+            color: white;
+            font-size: medium;
+        }
+        .first{
+            background-color: rgba(5, 129, 40, 0.979);
+            padding: 20px;
+        }
+        .first a{
+            color: white;
+
+        }
+        .first a:hover{
+            text-decoration: underline;
+        }
+        .sec{
+            font-size: 40px;
+            text-align: center;
+        }
+        .new{
+            justify-content: space-between;
+            text-align: center;
+            font-size: larger;
+            color: white;
+            margin-top:10px;
+        }
+        #i2{
+            justify-content: space-between;
+            margin-left: 24px;
+            margin-right: 24px;
+        }
+        h2{
+            color: rgb(23, 190, 104);
+            margin-bottom: 15px;
+            justify-content: left;
+        }
+
+        /* body content design */
+        .total{
+            display: flex;
+            justify-content: center;
+            column-gap: 44%;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+    
+        .card {
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            width: 300px;
+            padding: 20px;
+        }
+        .new a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .new a:hover {
+            text-decoration: underline;
+        }
+    
+        .row{
+            margin-bottom: 14px;
+            margin-left: 2%;
+        }
+        
+        /* footer */
+        .footer{
+            background-color: rgba(37, 37, 36, 0.929);
+            color: white;
+            padding: 23px;
+            justify-content: center;
+        }
+        .footer a{
+            color: rgb(38, 153, 17);
+            text-decoration: none;
+            margin: 8px;
+        }
+        .footer a:hover{
+            text-decoration: underline;
+        }
+        .footer p{
+            margin-left: 30%;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="first">
+    <div class="sec">Welcome  to Your  Website Task</div>
+    <div class="new">
+        <a href="#">Home</a>
+        <a href="#" id="i2">About</a>
+        <a href="#">Contact</a>
+    </div>
+</div>
+
+<div class="total">
+<div class="card">
+    <h2>About CSS</h2>
+    <p>Cascading Style Sheets (CSS) allow you to style and layout your 
+        web pages, adding colors, spacing and more.</p>
+        </div>
+
+<div class="card">
+    <h2>Box Model</h2>
+    <p>The CSS box model describes the rectangular boxes generated for elements. It
+         includes margins,borders, and the actual content.</p>
+    </div>
+</div>
+
+<div class="row">
+<div class="card">
+    <h2>Responsive Design</h2>
+    <p>Responsive design ensures your webpage looks great on all devices,
+         from desktop to mobile phones.</p>
+    </div>
+</div>
+
+<div class="footer">
+    <p>Created by Mahi | Follow us on 
+      <a href="#">Instagram</a> | 
+      <a href="#">Twitter</a> | 
+      <a href="#">LinkedIn</a>
+    </p>
+  </div>
+
+</body>
+</html>
